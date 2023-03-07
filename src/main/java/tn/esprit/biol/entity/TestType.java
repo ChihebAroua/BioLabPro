@@ -1,5 +1,6 @@
 package tn.esprit.biol.entity;
 
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,11 +18,13 @@ import java.util.Set;
 @ToString
 public class TestType {
    /* BloodTest,
+
     Urinalysis,
     MicrobialCultureTest,
     EnzymeTest,
     HormoneTest,
     TissueTest,
+
     MolecuralTest*/
 
    @Id
@@ -60,4 +63,5 @@ public class TestType {
         this.idTestType = idTestType;
         this.testName = testName;
     }
+
 }
